@@ -1,0 +1,88 @@
+@font-face{
+    font-family: 'poppins';
+    src: url('Poppins-Light.ttf'), url('Poppins-Medium.ttf');
+}
+body{
+    min-width: 500px;
+}
+h1{
+    font-family: 'poppins';
+    font-size: 1.8em;
+    
+}
+#title{
+    color: rgb(0, 7, 40);
+}
+textarea{
+    font-family: "poppins";
+    font-size: 1.2em;
+}
+input{
+    width: 100%;
+    padding-left: 1em;
+    padding-right: 1em;
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+button{
+    margin: 1em;
+}
+#prompt-align{
+    display: flex;
+    margin-top: -1.5em;
+    margin-bottom: 0;
+}
+#prompts{
+    font-family: 'poppins';
+    font-size: 1.3em;
+    color: rgb(61, 71, 92);
+}
+nav{
+    display: none;
+}
+svg#menuIcon{
+    position: absolute;
+    width: 1.8em;
+    height: 1.8em;
+    top: 5em;
+    cursor: pointer;
+}
+nav.toggle{
+    display: block;
+    font-family: "poppins";
+    font-size: 1.2em;
+    margin-top: -1.5em;
+    margin-left: -1em;
+    color: rgb(61, 71, 92);
+}
+#input-el{
+    border-radius: 10px;
+    border-color: rgb(133, 162, 236);
+    width: 400px;
+}
+#input-btn{
+    background-color: darkgray;
+    border-radius: 10px;
+    border: none;
+}
+#input-btn:hover{
+    background-color: rgb(209, 209, 209);
+}
+#input-btn:active{
+    background-color: rgb(133, 162, 236);
+}
+#view-journal{
+    font-family: 'poppins';
+    color: rgb(61, 71, 92);
+    text-decoration: underline;
+    font-size: 1.2em;
+}
+#view-journal:hover{
+    color: rgb(189, 189, 189);
+}
+#view-journal:active{
+    color: rgb(133, 162, 236);
+}
+#view-journal:visited{
+    color: rgb(61, 71, 92);
+}

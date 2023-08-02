@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "version": "1.0",
+    "name": "QuickJournal",
+    "permissions": ["tabs", "storage", "unlimitedStorage"],
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "chrome_icon.png"
+    },
+    "background" :{
+        "service_worker" : "background.js"
+    }
+}

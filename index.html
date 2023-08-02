@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Quick Journal</title>
+</head>
+<body>
+    <h1 id="title">How have you been? Tell me your thoughts!</h1>
+    <div id="prompt-align">
+        <p id="prompts">Having trouble? Click the arrow to see some prompts!</p>
+        <div>
+            <svg id = "menuIcon" viewBox = "0 0 30 30" role="button">
+                <title>Navigation Menu Icon</title>
+                <line x1="13" x2="20" y1="10" y2="20" stroke="rgb(61, 71, 92)" stroke-linecap="round" />
+                <line x1="27" x2="20" y1="10" y2="20" stroke="rgb(61, 71, 92)" stroke-linecap="round" />
+            </svg>
+        </div>
+    </div>
+    <nav>
+        <ul>
+            <li>
+                What has been the best and worst part of your day so far?</li>
+            <li>
+                What is something that you are looking forward to?
+            </li>
+            <li>
+                Do you have any plans that you are excited for?
+            </li>
+            <li>
+                What are you grateful for?
+            </li>
+        </ul>
+    </nav>
+    <div id="message-input">
+        <textarea name="message" id="input-el" cols="100" rows="10" placeholder="Start typing!"></textarea>
+        <button id="input-btn">SAVE</button>
+    </div>
+    <p><a  id="view-journal" href="#">View your journal!</a></p>
+    <script src="index.js"></script>
+    <script src="toggle.js"></script>
+    <script src="newWindow.js"></script>
+    <script src="background.js"></script>
+</body>
+</html>

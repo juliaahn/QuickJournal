@@ -1,0 +1,66 @@
+@font-face{
+    font-family: 'poppins';
+    src: url('Poppins-Light.ttf'), url('Poppins-Medium.ttf');
+}
+@font-face{
+    font-family: 'nanum';
+    src: url('NanumPenScript-Regular.ttf');
+}
+h1{
+    font-family: 'poppins';
+}
+#journal{
+    background-color: rgb(242, 242, 239);
+    border: 10px rgb(30, 30, 30);
+    width: 500px;
+    height: 600px;
+    margin: auto;
+    word-wrap: break-word;
+    overflow: auto;
+}
+#date-entry{
+    font-family: "nanum";
+    font-size: 1.8em;
+    margin: 10px;
+    margin-top: 5px;
+}
+#page-num{
+    font-family: "nanum";
+    font-size: 1.8em;
+    margin: 10px;
+    margin-top: 5px;
+}
+#date-page-align{
+    display: flex;
+    justify-content: space-between;
+}
+#journal-entry{
+    font-family: "nanum";
+    font-size: 1.8em;
+    margin: 10px;
+}
+#buttons{
+    margin: auto;
+    margin-top: 10px;
+    width: 100px;
+}
+#left-btn, 
+#right-btn{
+    margin-right: 5px;
+    cursor: pointer;
+}
+#left-btn:hover circle,
+#left-btn:hover line,
+#right-btn:hover circle,
+#right-btn:hover line{
+    stroke: rgb(134, 134, 134);
+}
+svg#menuIcon{
+    position: absolute;
+    width: 2.5em;
+    height: 2.5em;
+    top: 1.5em;
+    right: 1em;
+}
+
+    
